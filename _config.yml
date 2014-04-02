@@ -1,13 +1,13 @@
-title:            Blog
+title:            "{ blog: 'Gøran Sveia Kvarv' }"
 description:      //Software Development.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              
+url:
 disqus_shortname: kvarv
 
 # Owner/author information
 owner:
   name:           Gøran Sveia Kvarv
-  avatar:         me.jpg
+  avatar:         me_square.jpg
   bio:            "Software developer."
   email:          your@email.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
@@ -39,12 +39,14 @@ links:
     url: /about/
   - title: Posts
     url: /posts/
+  - title: Feed
+    url: /feed.xml
   - title: GitHub
     url: https://github.com/kvarv/
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Oslo
 future:      true
 pygments:    true
 markdown:    kramdown
